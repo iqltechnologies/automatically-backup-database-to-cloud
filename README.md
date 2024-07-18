@@ -13,7 +13,6 @@ What it does
 
 # Setup to dump 
 
-###download this script:
 - download `wget https://cdn.jsdelivr.net/gh/iqltechnologies/automatically-backup-database-to-cloud/backup_cron.sh`
 - make executable `chmod +x backup_cron.sh`
 - try run `./backup_cron.sh`
