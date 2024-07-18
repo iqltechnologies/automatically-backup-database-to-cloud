@@ -5,10 +5,10 @@ This script creates a dump of database on your server and backs it up to digital
 **important** You must have s3cmd installed and configured for this script to work. 
 
 What it does
-## Dump the database
-## Upload to DigitalOcean Spaces
-## Remove the backup file locally (optional)
-## Remove backups older than 3 days from the bucket
+ - ## Dump the database
+ - ## Upload to DigitalOcean Spaces
+ - ## Remove the backup file locally (optional)
+ - ## Remove backups older than 3 days from the bucket
 
 
 # Setup to dump 
