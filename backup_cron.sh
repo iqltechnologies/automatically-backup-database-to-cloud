@@ -1,13 +1,17 @@
 #!/bin/bash
 
-# Fill Your Variables
+# #CONFIG TAG IS REQUIRED IF YOU ARE ALSO USING QUICK INSTALLER 
+
+#CONFIG
 DB_NAME=""
 DB_USER=""
 DB_PASSWORD=""
-BACKUP_DIR="/home/backup/"
-CURRENT_DATE=$(date +\%F)
+BACKUP_DIR="/var/www//backup/"
+CURRENT_DATE=$(date +%F)
+S3_BUCKET="s3://bucket/folder/"
+#ENDCONFIG
+
 BACKUP_FILE="$BACKUP_DIR/${DB_NAME}_$(date +\%F_\%H-\%M).sql"
-S3_BUCKET="s3://bucketname/backup/"
 
 # Create backup directory if it doesn't exist
 mkdir -p $BACKUP_DIR
