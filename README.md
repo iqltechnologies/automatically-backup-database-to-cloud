@@ -1,4 +1,4 @@
-# Automatically backup database to cloud
+# Automatically backup database to s3 compatible Storage
 Shell Script to Backup database to Aws S3 or DigitalOcean Automatically.
 
 This script creates a dump of database on your server and backs it up to digitalocean spaces. You can also set it up as a cron to automatically backup periodically
